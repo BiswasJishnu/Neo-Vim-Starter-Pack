@@ -5,7 +5,7 @@
 
 <br>
 
-## * Create a config file for your neovim
+* ##  Create a config file for your neovim
 
 > *  All configurations will be stored in the  **nvim** folder created within your .config folder 
 > * The  **init.vim** file  will be responsible for all your neovim configuration
@@ -14,4 +14,4 @@
   mkdir ~/.config/nvim
   touch ~/.config/nvim/init.vim
 ```
-## * Install and setup Vim-Plug to manager plugins for vim
+* ##  Install and setup Vim-Plug to manager plugins for vim
