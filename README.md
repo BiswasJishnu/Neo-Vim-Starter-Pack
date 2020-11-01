@@ -23,3 +23,12 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 > *  This will create an **autoload directory** inside your nvim folder and install **vim-plug** there.
 > *  The autoload directory is necessaary as it instructs everything in it, here vim-plug  to **automatically load** when neovim starts up.
 > *  [Referr here](https://github.com/junegunn/vim-plug) for more information.
+
+* ##  Setup plugins for neo-vim
+
+```html
+mkdir ~/.config/nvim/vim-plug
+touch ~/.config/nvim/vim-plug/plugins.vim
+```
+> *  All plugins will be stored in the  **vim-plug** folder created within your nvim folder. 
+> * The  **plugins.vim** file  will be responsible for all your plugins configuration.
