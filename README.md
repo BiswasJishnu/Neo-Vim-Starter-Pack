@@ -15,7 +15,7 @@
 > *  All configurations will be stored in the  **nvim** folder created within your .config folder 
 > * The  **init.vim** file  will be responsible for all your neovim configuration
 
-* ##  Install and setup Vim-Plug to manage plugins for neo-vim
+* ##  Install Vim-Plug to manage plugins for neo-vim
 
 ```html
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
