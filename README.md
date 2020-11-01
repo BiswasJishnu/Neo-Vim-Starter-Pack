@@ -92,9 +92,9 @@ Open up neo-vim and run :
 Here are some other useful commands perfatining to plugins
 | Command                        | Action                                                               |  
 | :----------------------------: | :-----------------------------------------------------------------:  |                                     
-| :PlugStatus                    |  *Check wether all plugins are insalled **correctly.** *             | 
-| :PlugClean                     |  *Remove plugins which are no longer defined in **plugins.vim.** *   |
-| :PlugUpdate                    |  * **Update** all your plugins.*                                     |
-| :PlugUpgrade                   |  *Update **vim-plug.** *                                             |
+| :PlugStatus                    |   Check wether all plugins are insalled **correctly.**               | 
+| :PlugClean                     |   Remove plugins which are no longer defined in **plugins.vim.**     |
+| :PlugUpdate                    |   **Update** all your plugins.                                       |
+| :PlugUpgrade                   |   Update **vim-plug.**                                               |
 
 
