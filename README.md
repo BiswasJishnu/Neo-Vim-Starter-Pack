@@ -14,4 +14,4 @@
   mkdir ~/.config/nvim
   touch ~/.config/nvim/init.vim
 ```
-## * Install Vim-Plug to manager plugins for vim
+## * Install and setup Vim-Plug to manager plugins for vim
