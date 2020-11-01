@@ -89,7 +89,7 @@ Open up neo-vim and run :
 ```
 > * This would **install** all the plugins we added in our **plugins.vim** file.
 
-Here are some other useful commands perfatining to plugins
+Here are some other useful commands pertaining to plugins
 | Command                        | Action                                                               |  
 | :----------------------------: | :-----------------------------------------------------------------:  |                                     
 | :PlugStatus                    |   Check wether all plugins are insalled **correctly.**               | 
