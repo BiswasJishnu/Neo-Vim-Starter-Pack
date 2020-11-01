@@ -68,3 +68,12 @@ call plug#end()
 > *  This will make sure that all your plugins are installed within the autoload directory and starts up properly everytime you load neovim.
 > *  For getting started we have added some very basic plugins like **autopairs** for brackets, **vim-polygot** for better syntax hilighting and **nerd tree** to navigate directories.
 
+<br>
+
+Now add this to your **init.vim** 
+
+```html
+source $HOME/.config/nvim/vim-plug/plugins.vim
+```
+> *  This will **source** all your **plugin configuration** to init.vim which will instruct neovim about the plugins
+> *  Its best practice to create such seperate directories and store configurations and later sourcing them instead of messing up our init.vim file
