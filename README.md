@@ -14,4 +14,9 @@
   mkdir ~/.config/nvim
   touch ~/.config/nvim/init.vim
 ```
-* ##  Install and setup Vim-Plug to manager plugins for vim
+* ##  Install and setup Vim-Plug to manage plugins for vim
+
+
+```html
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
