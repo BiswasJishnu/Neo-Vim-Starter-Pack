@@ -5,8 +5,8 @@
 
 ## Create a config file for your neovim
 
-> *  All configurations will be stored in the folder nvim created within your .config folder 
->  * The file init.vim  will be responsible for all your neovim configuration
+> *  All configurations will be stored in the  **nvim** folder created within your .config folder 
+> * The  **init.vim** file  will be responsible for all your neovim configuration
 
 ```html
   mkdir ~/.config/nvim
