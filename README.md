@@ -77,3 +77,18 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 ```
 > *  This will **source** all your **plugin configuration** to init.vim which will instruct neovim about the plugins
 > *  Its best practice to create such seperate directories and store configurations and later sourcing them instead of messing up our init.vim file
+
+<br>
+
+* ##  Install your plugins
+
+Open up nvim and run :
+
+```html
+:PlugInstall
+```
+> * This would **install** all the plugins we added in our **plugins.vim** file.
+
+
+
+
