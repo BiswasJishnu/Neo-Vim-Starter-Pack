@@ -82,13 +82,19 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 
 * ##  Install your plugins
 
-Open up nvim and run :
+Open up neo-vim and run :
 
 ```html
 :PlugInstall
 ```
 > * This would **install** all the plugins we added in our **plugins.vim** file.
 
-
+Here are some other useful commands perfatining to plugins
+| Command                        | Action                                                               |  
+| :----------------------------: | :-----------------------------------------------------------------:  |                                     
+| :PlugStatus                    |  *Check wether all plugins are insalled **correctly.** *             | 
+| :PlugClean                     |  *Remove plugins which are no longer defined in **plugins.vim.** *   |
+| :PlugUpdate                    |  * **Update** all your plugins.*                                     |
+| :PlugUpgrade                   |  *Update **vim-plug.** *                                             |
 
 
