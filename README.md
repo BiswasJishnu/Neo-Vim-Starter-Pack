@@ -33,6 +33,9 @@ touch ~/.config/nvim/vim-plug/plugins.vim
 > *  All plugin configurations will be stored in the  **vim-plug** folder created within your nvim folder. 
 > * The  **plugins.vim** file  will be responsible for all your plugins configuration.
 
+
+Copy this into your **plugins.vim** and save it
+
 ```html
 " auto-install vim-plug
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
@@ -45,13 +48,18 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
+
     Plug 'sheerun/vim-polyglot'
+
     " File Explorer
     Plug 'scrooloose/NERDTree'
+
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 ```
 
+> *  This will make sure that all your plugins are installed within the autoload directory and starts up properly everytime you load neovim.
+> *  For getting started we have added some very basic plugins like **autopairs** for brackets, **vim-polygot** for better syntax hilighting and **nerd tree** to navigate directories.
 
