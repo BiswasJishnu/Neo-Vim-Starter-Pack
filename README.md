@@ -112,10 +112,14 @@ touch ~/.config/nvim/general/settings.vim
 > *  All settings will be stored in the  **general** folder created within your nvim folder 
 > * The  **settings.vim** file  will be responsible for all your neovim settings.
 
-Now install the following :
+Now install the following dependencies :
 
 ```html
 sudo pacman -S xsel -use your default package manager if your distribution isnt arch based
 pip install pynvim
 npm i -g neovim
 ```
+
+> * **xsel** will be our **clipboard manager** which will allow us to copy and paste as declared to be declared in our **settings.vim**.
+> * Use your default package manager instead of pacman  if you dont use a arch based distribution.
+> * **pynvim** will add python support to neo-vim and neovim adds nodejs support to neo-vim 
