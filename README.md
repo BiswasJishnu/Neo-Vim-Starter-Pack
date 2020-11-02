@@ -97,4 +97,14 @@ Here are some other useful commands pertaining to plugins
 | :PlugUpdate                    |   **Update** all your plugins.                                       |
 | :PlugUpgrade                   |   Update **vim-plug.**                                               |
 
+<br>
 
+* ## Neo-vim settings for easy of use
+
+```html
+mkdir ~/.config/nvim/general
+touch ~/.config/nvim/general/settings.vim
+```
+
+> *  All settings will be stored in the  **general** folder created within your nvim folder 
+> * The  **settings.vim** file  will be responsible for all your neovim settings.
