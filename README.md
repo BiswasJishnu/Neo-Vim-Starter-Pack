@@ -80,7 +80,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 
 <br>
 
-* ##  Install your plugins
+* ##  📥  Install your plugins
 
 Open up neo-vim and run :
 
@@ -102,7 +102,7 @@ Here are some other useful commands pertaining to plugins
 
 <br>
 
-* ## Neo-vim settings for easy of use
+* ## ⚙️  Neo-vim settings for easy of use
 
 ```html
 mkdir ~/.config/nvim/general
