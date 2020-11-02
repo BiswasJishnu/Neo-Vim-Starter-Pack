@@ -89,6 +89,9 @@ Open up neo-vim and run :
 ```
 > * This would **install** all the plugins we added in our **plugins.vim** file.
 
+
+
+
 Here are some other useful commands pertaining to plugins
 | Command                        | Action                                                               |  
 | :----------------------------: | :-----------------------------------------------------------------:  |                                     
@@ -108,3 +111,11 @@ touch ~/.config/nvim/general/settings.vim
 
 > *  All settings will be stored in the  **general** folder created within your nvim folder 
 > * The  **settings.vim** file  will be responsible for all your neovim settings.
+
+Now install the following :
+
+```html
+sudo pacman -S xsel -use your default package manager if your distribution isnt arch based
+pip install pynvim
+npm i -g neovim
+```
