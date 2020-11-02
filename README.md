@@ -5,7 +5,7 @@
 
 <br>
 
-* ##  ✏️ Create a config file for your neo-vim
+* ##  ✏️  Create a config file for your neo-vim
 
 ```html
   mkdir ~/.config/nvim
@@ -17,7 +17,7 @@
 
 <br>
 
-* ##  Install Vim-Plug to manage plugins for neo-vim
+* ##  🔌  Install Vim-Plug to manage plugins for neo-vim
 
 ```html
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -28,7 +28,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 
 <br>
 
-* ##  Setup plugins for neo-vim
+* ##  💡  Setup plugins for neo-vim
 
 ```html
 mkdir ~/.config/nvim/vim-plug
