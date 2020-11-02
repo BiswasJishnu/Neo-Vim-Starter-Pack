@@ -5,7 +5,7 @@
 
 <br>
 
-* ##  Create a config file for your neo-vim
+* ##  ✏️ Create a config file for your neo-vim
 
 ```html
   mkdir ~/.config/nvim
