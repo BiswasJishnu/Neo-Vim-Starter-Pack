@@ -184,5 +184,5 @@ Use the following command in nvim to source it without saving and restarting neo
 ```
 > * By default when you **source** something in your init.vim it is **applied** when neo-vim is **restarted**.
 > * :source $MYVIMRC allows us to **apply** it **without restarting**.
-> * In our settings.vim we have set to **apply :source $MYVIMRC automatically** when we source something  this is better than  using commands or restarting
+> * In our settings.vim we have set to **apply :source $MYVIMRC automatically** when we **source** something  this is better than  using commands or restarting.
 
