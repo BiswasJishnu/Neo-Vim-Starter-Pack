@@ -170,7 +170,7 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 > * These will be our general settings for neo-vim.
 > * These settings will try to replicate an ide as much as possible.
-> * Settings like **copy/paste** , **syntax highlighting**, **mouse clicking** to move cursor and more  will be enabled 
+> * Settings like **copy/paste** , **syntax highlighting**, **mouse clicking** to move cursor and more  will be enabled. 
 
 Finally source your settings in the **init.vim** file
 
@@ -178,6 +178,11 @@ Finally source your settings in the **init.vim** file
 source $HOME/.config/nvim/general/settings.vim
 ```
 Use the following command in nvim to source it without saving and restarting neovim
+
 ```html
 :source $MYVIMRC
 ```
+> * By default when you **source** something in your init.vim it is **applied** when neo-vim is **restarted**.
+> * :source $MYVIMRC allows us to **apply** it **without restarting**.
+> * In our settings.vim we have set to **apply :source $MYVIMRC automatically** when we source something  this is better than  using commands or restarting
+
