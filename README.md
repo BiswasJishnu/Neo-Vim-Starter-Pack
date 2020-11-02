@@ -167,7 +167,13 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 ```
+
 > * These will be our general settings for neo-vim.
 > * These settings will try to replicate an ide as much as possible.
 > * Settings like **copy/paste** , **syntax highlighting**, **mouse clicking** to move cursor and more  will be enabled 
 
+Finally source your settings in the **init.vim** file
+
+```html
+source $HOME/.config/nvim/general/settings.vim
+```
