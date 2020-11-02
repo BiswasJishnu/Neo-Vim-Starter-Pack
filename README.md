@@ -177,3 +177,7 @@ Finally source your settings in the **init.vim** file
 ```html
 source $HOME/.config/nvim/general/settings.vim
 ```
+Use the following command in nvim to source it without saving and restarting neovim
+```html
+:source $MYVIMRC
+```
