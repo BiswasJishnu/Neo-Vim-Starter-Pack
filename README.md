@@ -259,9 +259,9 @@ nnoremap <Leader>O O<Esc>^Da
 ```
 > * These will be our keybindings for neo-vim. These bindings will enable
 > * **Better navigation** for omnicomplete.
-> * Allow to quick **enter and exit** *Insert mode* with keyes **j&k** rapidly pressed after one another.
+> * Allow to quick **enter and exit** *Insert mode* with keys **j&k** rapidly pressed after one another.
 > * **Alt** key  can now be used to resize windows.
 > * Press **Ctrl+U** over a word to capatilise it.
 > * **Tab** key can now be used to **switch** between **buffers** and for **completion**.
 > * **Ctrl+S** will now save your file and **Ctrl+Q** will now **save and exit** neovim. 
-> * **Better tabbing , window navigation ** will now be **enabled** 
+> * **Better tabbing , window navigation** will now be **enabled** 
