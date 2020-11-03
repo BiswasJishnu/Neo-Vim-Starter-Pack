@@ -208,3 +208,60 @@ touch ~/.config/nvim/keys/mappings.vim
 
 > *  All settings will be stored in the  **keys** folder created within your nvim folder 
 > * The  **mappings.vim** file  will be responsible for all your neovim settings.
+
+Now copy the following in your **mappings.vim** file
+
+```html
+" Better nav for omnicomplete
+inoremap <expr> <c-j> ("\<C-n>")
+inoremap <expr> <c-k> ("\<C-p>")
+
+" Use alt + hjkl to resize windows
+nnoremap <M-j>    :resize -2<CR>
+nnoremap <M-k>    :resize +2<CR>
+nnoremap <M-h>    :vertical resize -2<CR>
+nnoremap <M-l>    :vertical resize +2<CR>
+
+" Entering j&k will work same as Esc now 
+inoremap jk <Esc>
+inoremap kj <Esc>
+
+" Easy CAPS
+inoremap <c-u> <ESC>viwUi
+nnoremap <c-u> viwU<Esc>
+
+" TAB in general mode will move to text buffer
+nnoremap <TAB> :bnext<CR>
+" SHIFT-TAB will go back
+nnoremap <S-TAB> :bprevious<CR>
+
+" Alternate way to save
+nnoremap <C-s> :w<CR>
+" Alternate way to quit
+nnoremap <C-Q> :wq!<CR>
+" Use control-c instead of escape
+nnoremap <C-c> <Esc>
+" <TAB>: completion.
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+
+" Better tabbing
+vnoremap < <gv
+vnoremap > >gv
+
+" Better window navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+nnoremap <Leader>o o<Esc>^Da
+nnoremap <Leader>O O<Esc>^Da
+```
+> * These will be our keybindings for neo-vim. These bindings will enable
+> * **Better navigation** for omnicomplete.
+> * Allow to quick **enter and exit** *Insert mode* with keyes **j&k** rapidly pressed after one another.
+> * **Alt** key  can now be used to resize windows.
+> * Press **Ctrl+U** over a word to capatilise it.
+> * **Tab** key can now be used to **switch** between **buffers** and for **completion**.
+> * **Ctrl+S** will now save your file and **Ctrl+Q** will now **save and exit** neovim. 
+> * **Better tabbing , window navigation ** will now be **enabled** 
