@@ -12,8 +12,8 @@
   touch ~/.config/nvim/init.vim
 ```
 
-> *  All configurations will be stored in the  **nvim** folder created within your .config folder 
-> * The  **init.vim** file  will be responsible for all your neovim configuration
+> *  All configurations will be stored in the  **nvim** folder created within your .config folder. 
+> * The  **init.vim** file  will be responsible for all your neovim configuration.
 
 <br>
 
@@ -75,8 +75,8 @@ Now add this to your **init.vim**
 ```html
 source $HOME/.config/nvim/vim-plug/plugins.vim
 ```
-> *  This will **source** all your **plugin configuration** to init.vim which will instruct neovim about the plugins
-> *  Its best practice to create such seperate directories and store configurations and later sourcing them instead of messing up our init.vim file
+> *  This will **source** all your **plugin configuration** to init.vim which will instruct neovim about the plugins.
+> *  Its best practice to create such seperate directories and store configurations and later sourcing them instead of messing up our init.vim file.
 
 <br>
 
@@ -109,7 +109,7 @@ mkdir ~/.config/nvim/general
 touch ~/.config/nvim/general/settings.vim
 ```
 
-> *  All settings will be stored in the  **general** folder created within your nvim folder 
+> *  All settings will be stored in the  **general** folder created within your nvim folder. 
 > * The  **settings.vim** file  will be responsible for all your neovim settings.
 
 Now install the following dependencies :
@@ -122,9 +122,9 @@ npm i -g neovim
 
 > * **xsel** will be our **clipboard manager** which will allow us to copy and paste as declared to be declared in our **settings.vim**.
 > * Use your default package manager instead of pacman  if you dont use a arch based distribution.
-> * **pynvim** will add python support to neo-vim and neovim adds nodejs support to neo-vim 
+> * **pynvim** will add python support to neo-vim and neovim adds nodejs support to neo-vim. 
 
-Copy this into your **settings.vim** file 
+Copy this into your **settings.vim** file. 
 
 ```html
 " set leader key
@@ -172,7 +172,7 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 > * These settings will try to replicate an ide as much as possible.
 > * Settings like **copy/paste** , **syntax highlighting**, **mouse clicking** to move cursor and more  will be enabled. 
 
-Finally source your settings in the **init.vim** file
+Finally source your settings in the **init.vim** file.
 
 ```html
 source $HOME/.config/nvim/general/settings.vim
@@ -206,10 +206,10 @@ mkdir ~/.config/nvim/keys
 touch ~/.config/nvim/keys/mappings.vim
 ```
 
-> *  All settings will be stored in the  **keys** folder created within your nvim folder 
+> *  All settings will be stored in the  **keys** folder created within your nvim folder. 
 > * The  **mappings.vim** file  will be responsible for all your neovim settings.
 
-Now copy the following in your **mappings.vim** file
+Now copy the following in your **mappings.vim** file.
 
 ```html
 " Better nav for omnicomplete
@@ -265,3 +265,9 @@ nnoremap <Leader>O O<Esc>^Da
 > * **Tab** key can now be used to **switch** between **buffers** and for **completion**.
 > * **Ctrl+S** will now save your file and **Ctrl+Q** will now **save and exit** neovim. 
 > * **Better tabbing , window navigation** will now be **enabled**. 
+
+Finally source your mappings in the **init.vim** file.
+
+```html
+source $HOME/.config/nvim/general/mappings.vim
+```
