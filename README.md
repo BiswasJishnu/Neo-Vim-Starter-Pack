@@ -201,3 +201,10 @@ Use the following command in nvim to source it without saving and restarting neo
 
 * ## ⌨️  Setup Keybindings for neo-vim
 
+```html
+mkdir ~/.config/nvim/keys
+touch ~/.config/nvim/keys/mappings.vim
+```
+
+> *  All settings will be stored in the  **keys** folder created within your nvim folder 
+> * The  **mappings.vim** file  will be responsible for all your neovim settings.
