@@ -177,7 +177,7 @@ Finally source your settings in the **init.vim** file.
 ```html
 source $HOME/.config/nvim/general/settings.vim
 ```
-Use the following command in nvim to source it without saving and restarting neovim
+Use the following command in nvim to **source** it **without** saving and **restarting** neovim.
 
 ```html
 :source $MYVIMRC
@@ -269,5 +269,5 @@ nnoremap <Leader>O O<Esc>^Da
 Finally source your mappings in the **init.vim** file.
 
 ```html
-source $HOME/.config/nvim/general/mappings.vim
+source $HOME/.config/nvim/keys/mappings.vim
 ```
