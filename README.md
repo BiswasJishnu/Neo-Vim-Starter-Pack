@@ -186,6 +186,7 @@ Use the following command in nvim to source it without saving and restarting neo
 > * :source $MYVIMRC allows us to **apply** it **without restarting**.
 > * In our settings.vim we have set to **apply :source $MYVIMRC automatically** when we **source** something  this is better than  using commands or restarting.
 
+<br>
 
 * ##  👨‍⚕️  Get healthy
 
@@ -195,3 +196,8 @@ Use the following command in nvim to source it without saving and restarting neo
 ```
 > * This command will check wether all your **plugins** are **installed correctly**.
 > * You will also be notified if there are any **missing dependencies**. 
+
+<br>
+
+* ## ⌨️  Setup Keybindings for neo-vim
+
