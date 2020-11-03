@@ -264,4 +264,4 @@ nnoremap <Leader>O O<Esc>^Da
 > * Press **Ctrl+U** over a word to capatilise it.
 > * **Tab** key can now be used to **switch** between **buffers** and for **completion**.
 > * **Ctrl+S** will now save your file and **Ctrl+Q** will now **save and exit** neovim. 
-> * **Better tabbing , window navigation** will now be **enabled** 
+> * **Better tabbing , window navigation** will now be **enabled**. 
