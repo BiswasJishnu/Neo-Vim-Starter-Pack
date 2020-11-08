@@ -283,7 +283,7 @@ mkdir ~/.config/nvim/themes
 touch ~/.config/nvim/themes/onedark.vim
 ```
 > *  All theme configurations will be stored in the  **themes** folder created within your nvim folder. 
-> * The  **onedark.vim** file  will be responsible for the onedark theme used in neo-vim.
+> * The  **onedark.vim** file  will be responsible for the onedark theme's configuration used in neo-vim.
 
 Now add the following to your **onedark.vim** file.
 
@@ -312,3 +312,11 @@ if (has("termguicolors"))
     hi LineNr ctermbg=NONE guibg=NONE
 endif
 ```
+
+Add the following in your **plugins.vim** file
+
+```html
+Plug 'joshdick/onedark.vim'
+```
+> * The onedark theme will be installed via our plugin manager i.e **vim-plug**. Hence this has to be added to our plugins.vim file.
+> * Hence this has to be **added** to your **plugins.vim** file.
