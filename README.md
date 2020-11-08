@@ -1,5 +1,5 @@
 # Neo-Vim-Starter-Pack
-![Project Banner](https://img.shields.io/badge/NVIM-v0.4.4-blue)
+![Project Banner](https://img.shields.io/badge/NVIM-v0.4.4-blue ?style=flat-square)
 >A guided configuration  to setup your neo-vim as a fully featured IDE
 >![Project Banner](./Images/Repo-Banner.png)
 
