@@ -271,3 +271,6 @@ Finally source your mappings in the **init.vim** file.
 ```html
 source $HOME/.config/nvim/keys/mappings.vim
 ```
+<br>
+
+* ## 🎴 Setting up a theme for neo-vim.
