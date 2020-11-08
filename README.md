@@ -1,5 +1,6 @@
 # Neo-Vim-Starter-Pack
-![Project Banner](https://img.shields.io/badge/NVIM-v0.4.4-blue)
+![Neovim version](https://img.shields.io/badge/NVIM-v0.4.4-blue)
+![Linux Kernel version](https://img.shields.io/badge/Linux-5.8.18-1-blue)
 >A guided configuration  to setup your neo-vim as a fully featured IDE
 >![Project Banner](./Images/Repo-Banner.png)
 
