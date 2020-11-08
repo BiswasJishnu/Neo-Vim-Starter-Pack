@@ -275,7 +275,13 @@ source $HOME/.config/nvim/keys/mappings.vim
 
 * ## 🎴 Setting up a theme for neo-vim.
 
-Now that you have made your neo-vim much like an IDE. Lets themify it!
-Theme to be used in this config is **Onedark**.
+<p>Now that you have made your neo-vim much like an IDE. Lets themify it!<p/>
+<p>Theme to be used in this config is **Onedark**.<p/>
 
+```html
+mkdir ~/.config/nvim/themes
+touch ~/.config/nvim/themes/onedark.vim
+```
+> *  All theme configurations will be stored in the  **themes** folder created within your nvim folder. 
+> * The  **onedark.vim** file  will be responsible for the onedark theme used in neo-vim.
 
