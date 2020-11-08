@@ -333,4 +333,5 @@ Finally run this command in neo-vim to install your theme.
 ```html
 :PlugInstall
 ```
-> * This should install your theme . If the theme does not apply then restart neo-vim.
+> * This should **install** your theme . 
+> * If the theme does **not**apply then **restart** neo-vim.
