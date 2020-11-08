@@ -335,4 +335,5 @@ Finally run this command in neo-vim to install your theme.
 ```
 > * This should **install** your theme . 
 > * If the theme does **not** apply then **restart** neo-vim.
-> * You can find several **other themes** [here.](https://vimcolorschemes.com/) Installation **procedure** is **same** as the one used in this configuration.
+> * You can find several **other themes** [here.](https://vimcolorschemes.com/) 
+> * Installation **procedure** is **same** as the one used in this configuration.
