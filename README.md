@@ -274,3 +274,5 @@ source $HOME/.config/nvim/keys/mappings.vim
 <br>
 
 * ## 🎴 Setting up a theme for neo-vim.
+
+Now that you have made your neo-vim much like IDE. Lets themify it!
