@@ -349,7 +349,7 @@ mkdir ~/.config/nvim/lua
 touch ~/.config/nvim/lua/plug-colorizer.lua
 ```
 > *  This will create an **lua** inside your nvim folder .
-> *  The lua foler will contain **plug-colorizer.lua** file which will be responsible for our colorizer plugin.
+> *  The lua foler will contain **plug-colorizer.lua** file which will be responsible for our colorizer plugin's config.
 
 Add this to your **plugins.vim** file
 
@@ -357,4 +357,23 @@ Add this to your **plugins.vim** file
 Plug 'norcalli/nvim-colorizer.lua'
 ```
 > * This will install our colorizer for neo-vim
-> * The colorizer will be installed via **vim-plug**,hence this has to be added to the **plugins.vim** file 
+> * The colorizer will be installed via **vim-plug**,hence this has to be added to the **plugins.vim** file.
+
+Now add this to our  **plug-colorizer.lua** 
+
+```html
+require'colorizer'.setup(
+  {'*';},
+  {
+    RGB      = true;         -- #RGB hex codes
+	  RRGGBB   = true;         -- #RRGGBB hex codes
+	  names    = true;         -- "Name" codes like Blue
+	  RRGGBBAA = true;         -- #RRGGBBAA hex codes
+	  rgb_fn   = true;         -- CSS rgb() and rgba() functions
+	  hsl_fn   = true;         -- CSS hsl() and hsla() functions
+	  css      = true;         -- Enable all CSS features: rgb_fn, hsl_fn, names, RGB, RRGGBB
+	  css_fn   = true;         -- Enable all CSS *functions*: rgb_fn, hsl_fn
+  })
+```
+> * This will enable our colorizer to highlight colors with their respective colors.
+
