@@ -400,5 +400,6 @@ And run the following command to **install** it.
 ```html
 :PlugInstall
 ```
+> These fonts will be **nesecarry** as they will used to **display icons** in our status line.
 
 
