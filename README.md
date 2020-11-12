@@ -377,7 +377,7 @@ require'colorizer'.setup(
 ```
 > * This will enable our colorizer to highlight colors with their respective colors.
 
-To **enable** our colorizerto work on every file use command:
+To **enable** our colorizer to work on every file use command:
 ```html
 :ColorizerAttachToBuffer
 ```
@@ -407,4 +407,10 @@ And run the following command to **install** it.
 ```
 > These fonts will be **nesecarry** as they will used to **display icons** in our status line.
 
+### Setup Airline
 
+```html
+touch ~/.config/nvim/themes/airline.vim
+```
+> * This will create file **airline.vim** in our **themes** folder.
+> * This file will will be responsible for all our statusline configuration.
