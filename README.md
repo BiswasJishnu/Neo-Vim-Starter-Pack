@@ -387,10 +387,9 @@ lua require'plug-colorizer'
 * ## 📏 Install a status line for neo-vim
 ### Setup Dependencies
 
-<p>
 Make sure you have nerd fonts fonts installed.
-<p/>
-[Click here](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)  to install it manually. Or check [here](https://github.com/ryanoasis/nerd-fonts)
+
+> [Click here](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)  to install it manually. Or check [here](https://github.com/ryanoasis/nerd-fonts)
 
 Then add the following in your **plugins.vim** file.
 ```html
