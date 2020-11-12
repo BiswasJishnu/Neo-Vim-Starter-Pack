@@ -320,7 +320,7 @@ Add the following in your **plugins.vim** file.
 ```html
 Plug 'joshdick/onedark.vim'
 ```
-> * The onedark theme will be installed via our plugin manager i.e **vim-plug**. Hence this has to be added to our plugins.vim file.
+> * The onedark theme will be installed via our plugin manager i.e **vim-plug**. 
 > * Hence this has to be **added** to your **plugins.vim** file.
 
 
@@ -344,4 +344,9 @@ Finally run this command in neo-vim to install your theme.
 
 * ## 🌈 Setting up a clorizer for neo-vim
 
-
+```html
+mkdir ~/.config/nvim/lua
+touch ~/.config/nvim/lua/plug-colorizer.lua
+```
+> *  This will create an **lua** inside your nvim folder .
+> *  The lua foler will contain **plug-colorizer.lua** file which will be responsible for our colorizer plugin.
