@@ -421,7 +421,7 @@ Add the following to our **plugins.vim**
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 ```
-> * This will add **airline**, our status line and a theme manager for it.
+> * This will add **vim airline**, our status line and a theme manager for it.
 > * Since these plugins will be added via  **vim-plug** adding them is nesecarry
 
 Make sure to run command  to install our plugins
@@ -429,3 +429,44 @@ Make sure to run command  to install our plugins
 ```html
 :PlugInstall
 ```
+
+Configure Airline by **adding** this to our **airline.vim**
+
+```html
+
+" enable tabline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_alt_sep = ''
+let g:airline#extensions#tabline#right_sep = ''
+let g:airline#extensions#tabline#right_alt_sep = ''
+
+" enable airline fonts for status line
+let g:webdevicons_enable_airline_statusline = 1
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+
+" Switch to your current theme
+let g:airline_theme = 'onedark'
+
+" Always show tabs
+set showtabline=2
+
+" We don't need to see things like -- INSERT -- anymore
+set noshowmode
+
+" Just show the file name not the file path 
+let g:airline#extensions#tabline#fnamemod = ':t'
+
+"enable web devicons for tabline
+let g:webdevicons_enable_airline_tabline = 1
+
+```
+> * This will add **icons** , **onedark theme** to our status line and enable other functionalities like always showing tabs etc.
+
+Finally Source our air line config to **init.vim**
+
+```html
+source $HOME/.config/nvim/themes/airline.vim
+```
+
