@@ -377,3 +377,8 @@ require'colorizer'.setup(
 ```
 > * This will enable our colorizer to highlight colors with their respective colors.
 
+Finally **source** our config to **init.vim**.
+
+```html
+lua require'plug-colorizer'
+```
