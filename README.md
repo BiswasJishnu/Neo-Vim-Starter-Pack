@@ -413,4 +413,19 @@ And run the following command to **install** it.
 touch ~/.config/nvim/themes/airline.vim
 ```
 > * This will create file **airline.vim** in our **themes** folder.
-> * This file will will be responsible for all our statusline configuration.
+> * This file will will be responsible for all our status line configuration.
+
+Add the following to our **plugins.vim**
+
+```html
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+```
+> * This will add **airline**, our status line and a theme manager for it.
+> * Since these plugins will be added via  **vim-plug** adding them is nesecarry
+
+Make sure to run command  to install our plugins
+
+```html
+:PlugInstall
+```
