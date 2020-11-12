@@ -388,11 +388,17 @@ lua require'plug-colorizer'
 ### Setup Dependencies
 
 <p>
-Make sure you have [nerd fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) installed.
+Make sure you have ![nerd fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) installed.
 <p/>
 
 Then add the following in your **plugins.vim** file.
 ```html
 Plug 'ryanoasis/vim-devicons'
 ```
+And run the following command to **install** it.
+
+```html
+:PlugInstall
+```
+
 
