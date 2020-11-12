@@ -377,6 +377,11 @@ require'colorizer'.setup(
 ```
 > * This will enable our colorizer to highlight colors with their respective colors.
 
+To **enable** our colorizerto work on every file use command:
+```html
+:ColorizerAttachToBuffer
+```
+
 Finally **source** our config to **init.vim**.
 
 ```html
