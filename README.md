@@ -350,3 +350,11 @@ touch ~/.config/nvim/lua/plug-colorizer.lua
 ```
 > *  This will create an **lua** inside your nvim folder .
 > *  The lua foler will contain **plug-colorizer.lua** file which will be responsible for our colorizer plugin.
+
+Add this to your **plugins.vim** file
+
+```html
+Plug 'norcalli/nvim-colorizer.lua'
+```
+> * This will install our colorizer for neo-vim
+> * The colorizer will be installed via **vim-plug**,hence this has to be added to the **plugins.vim** file 
