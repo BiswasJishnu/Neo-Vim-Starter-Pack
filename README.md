@@ -382,3 +382,7 @@ Finally **source** our config to **init.vim**.
 ```html
 lua require'plug-colorizer'
 ```
+<br>
+
+* ## 📏 Install a status line for neo-vim
+
