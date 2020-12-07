@@ -469,4 +469,7 @@ Finally Source our air line config to **init.vim**
 ```html
 source $HOME/.config/nvim/themes/airline.vim
 ```
+
+<br>
+
 ### 🔮 Setup Autocompletion for neo-vim
