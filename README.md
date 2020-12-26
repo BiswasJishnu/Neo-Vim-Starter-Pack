@@ -485,10 +485,15 @@ touch ~/.config/nvim/plug-config/coc.vim
 > * The plug-config folder will hold all configs of extensions to be added.
 > * The coc.vim will be the config for our autocompletion extension. 
 
-Now install Conquerer of Completion (Coc)
+Now install Conquerer of Completion (CoC)
 
 ```html
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ```
 Add this to the plugins.vim file and then install it with vim-plug.
 
+Finally source our **coc.vim**file in **init.vim**
+
+```html
+source $HOME/.config/nvim/plug-config/coc.vim
+```
