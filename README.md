@@ -124,6 +124,7 @@ npm i -g neovim
 > * **xsel** will be our **clipboard manager** which will allow us to copy and paste as declared to be declared in our **settings.vim**.
 > * Use your default package manager instead of pacman  if you dont use a arch based distribution.
 > * **pynvim** will add python support to neo-vim and neovim adds nodejs support to neo-vim. 
+> * Incase npm and node-js are **installed with your package manager** then installing **npm packages globally** requires **sudo** previliges.
 
 Copy this into your **settings.vim** file. 
 
