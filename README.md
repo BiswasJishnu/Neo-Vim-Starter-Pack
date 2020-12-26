@@ -538,8 +538,18 @@ To install auto completion extensions run the following command-
 
 Finally use these command incase you need them
 
-| Command                      | Action                                 |                               
-| :-------------------------------------------------------------------: |                                      
-| :CocList                     | **Lists** extensions installed through coc |              | :CocUpdate                   | **Updates** all coc-extensions             |
-| :CocUninstall                | **Uninstall** a certain extension          |
+```html
+:CocList 
+```
 
+> * **Lists** extensions installed through coc 
+
+```html
+:CocUpdate
+```
+> * **Updates** all coc-extensions
+
+```html
+:CocUninstall
+```
+> *  **Uninstall** a certain extension  
