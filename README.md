@@ -473,4 +473,14 @@ source $HOME/.config/nvim/themes/airline.vim
 
 <br>
 
-### 🔮 Setup Autocompletion for neo-vim
+* ### 🔮 Setup Autocompletion for neo-vim
+
+
+```html
+mkdir ~/.config/nvim/plug-config
+touch ~/.config/nvim/plug-config/coc.vim
+
+```
+> * This will create directory **plug-config** in our nvim folder.
+> * The plug-config folder will hold all configs of extensions to be added.
+> * The coc.vim will be the config for our autocompletion extension. 
