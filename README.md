@@ -498,6 +498,34 @@ Finally source our **coc.vim** file in **init.vim**
 source $HOME/.config/nvim/plug-config/coc.vim
 ```
 
+#### Configuring CoC
+
+Run the following command in neovim to create a configuration for CoC-
+
+```html
+:CocConfig
+```
+> This command will generate a config file for CoC in  ~/.config/nvim/coc-settings.json
+
+Now add the following to the config and save it.
+
+```html
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
+
+  "snippets.ultisnips.directories":
+  [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ]
+
+}
+
+```
+> * This will enable use of **snippets**.
+> * Also CoC will **auto format** css,md,js,html,yml,json and py files. More file types can be added.
+
+
 #### Installing auto completion extensions
 
 To install auto completion extensions run the following command-
