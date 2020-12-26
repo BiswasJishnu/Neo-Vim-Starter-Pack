@@ -492,8 +492,17 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ```
 Add this to the plugins.vim file and then install it with vim-plug.
 
-Finally source our **coc.vim**file in **init.vim**
+Finally source our **coc.vim** file in **init.vim**
 
 ```html
 source $HOME/.config/nvim/plug-config/coc.vim
 ```
+
+#### Installing auto completion extensions
+
+To install auto completion extensions run the following command-
+
+```html
+:CocInstall coc-stylelintplus coc-snippets coc-eslint coc-calc coc-vimlsp coc-sh coc-pyright coc-markdownlint coc-json coc-html coc-flutter coc-css coc-clangd 
+```
+
