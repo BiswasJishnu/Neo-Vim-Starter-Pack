@@ -99,7 +99,7 @@ Here are some other useful commands pertaining to plugins
 | :PlugStatus                    |   Check wether all plugins are insalled **correctly.**               | 
 | :PlugClean                     |   Remove plugins which are no longer defined in **plugins.vim.**     |
 | :PlugUpdate                    |   **Update** all your plugins.                                       |
-| :PlugUpgrade                   |   Update **vim-plug.**                                               |
+| :PlugUpgrade                   |   Update **vim-plug.**                                               
 
 <br>
 
@@ -511,7 +511,7 @@ Now add the following to the config and save it.
 
 ```html
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json"],
 
   "snippets.ultisnips.directories":
   [
@@ -523,7 +523,7 @@ Now add the following to the config and save it.
 
 ```
 > * This will enable use of **snippets**.
-> * Also CoC will **auto format** css,md,js,html,yml,json and py files. More file types can be added.
+> * Also CoC will **auto format** css,md,js,html,yml,json files. More file types can be added.
 
 
 #### Installing auto completion extensions
@@ -535,3 +535,11 @@ To install auto completion extensions run the following command-
 ```
 > * This will add auto completion support for pretty much all languages used generally.
 > * To know more visit [here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
+
+Finally use these command incase you need them
+
+| Command                      | Action                                 |                               
+| :-------------------------------------------------------------------: | :---------------------------------------------------------------------: |                                     
+| :CocList                     | Lists extensions installed through coc |              | :CocUpdate                   | Updates all coc-extensions             |
+| :CocUninstall                | Uninstall a certain extension          |
+
