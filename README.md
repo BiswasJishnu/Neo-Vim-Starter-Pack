@@ -531,7 +531,7 @@ Now add the following to the config and save it.
 To install auto completion extensions run the following command-
 
 ```html
-:CocInstall coc-stylelintplus coc-snippets coc-eslint coc-calc coc-vimlsp coc-sh coc-pyright coc-markdownlint coc-json coc-html coc-flutter coc-css coc-clangd 
+:CocInstall coc-stylelintplus coc-snippets coc-eslint coc-calc coc-vimlsp coc-sh coc-pyright coc-markdownlint coc-json coc-html coc-flutter coc-css coc-clangd coc-tsserver
 ```
 > * This will add auto completion support for pretty much all languages used generally.
 > * To know more visit [here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
