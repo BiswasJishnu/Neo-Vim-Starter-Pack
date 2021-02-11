@@ -553,3 +553,7 @@ Finally use these command incase you need them
 :CocUninstall
 ```
 > *  **Uninstall** a certain extension  
+
+<br>
+
+* ##  Add git intrigration
