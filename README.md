@@ -471,6 +471,12 @@ Finally Source our air line config to **init.vim**
 source $HOME/.config/nvim/themes/airline.vim
 ```
 
+Incase you do not want to show unwanted whiteshpaces use this 
+
+```html
+:AirlineToggleWhitespace
+```
+
 <br>
 
 * ### 🔮 Setup Autocompletion for neo-vim
