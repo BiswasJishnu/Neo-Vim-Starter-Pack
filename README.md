@@ -6,6 +6,8 @@
 
 <br>
 
+### 🔬 Detailed Installation
+
 * ##  ✏️  Create a config file for your neo-vim
 
 ```html
@@ -655,3 +657,6 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 > * This will set how coc-explorer behaves
 > * Use **Space+E** to **open** exploer or **Space+F** to open in **floating mode**.
 > * **Q** will close the explorer.
+
+
+### 🌟 Quick Installation
