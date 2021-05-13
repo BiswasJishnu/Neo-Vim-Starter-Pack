@@ -282,7 +282,7 @@ source $HOME/.config/nvim/keys/mappings.vim
 * ## 🎴 Setting up a theme for neo-vim.
 
 <p>Now that you have made your neo-vim much like an IDE. Lets themify it!<p/>
-<p> Configuring anything is a usually long proscess one might loose their interest midway. Having a visually appealing theme might keep u interested in further customization.<p/>
+<p> Configuring anything is a usually long proscess one might loose their interest midway. Having a visually appealing theme might keep u interested in further customization and in general make using neovim more comfortable.<p/>
 <p>Theme to be used in this config is Onedark. <p/>
 
 ```html
@@ -567,3 +567,17 @@ Finally use these command incase you need them
 <br>
 
 * ##  Add git intrigration
+
+Add the following in your **plugins.vim** file.
+
+```html
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
+```
+Make sure to run command  to install our plugins
+
+```html
+:PlugInstall
+```
