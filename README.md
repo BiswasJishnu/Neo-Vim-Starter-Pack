@@ -611,7 +611,7 @@ Now add the following to the **coc-settings.json**
 
 Finally add the folling to your **coc.vim** file in **~/.config/nvim/plug-config/coc.vim**
 
-``html
+```html
 " Explorer
 let g:coc_explorer_global_presets = {
 \   '.vim': {
@@ -651,3 +651,7 @@ nmap <space>e :CocCommand explorer<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 ```
+
+> * This will set how coc-explorer behaves
+> * Use **Space+E** to **open** exploer or **Space+F** to open in **floating mode**.
+> * **Q** will close the exploer
