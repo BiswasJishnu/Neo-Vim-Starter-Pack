@@ -581,3 +581,14 @@ Make sure to run command  to install our plugins
 ```html
 :PlugInstall
 ```
+
+<br> * ## 🧭 Add a file explorer for neo-vim
+
+After Coc has been installed for neo-vim install extension coc-explorer.
+This will allow us to manage files in vim.
+
+```html
+:CocInstall coc-explorer
+```
+
+
