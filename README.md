@@ -566,7 +566,7 @@ Finally use these command incase you need them
 
 <br>
 
-* ##  Add git intrigration
+* ## 🐙 Add git intrigration
 
 Add the following in your **plugins.vim** file.
 
