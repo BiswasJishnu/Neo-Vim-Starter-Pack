@@ -396,7 +396,7 @@ lua require'plug-colorizer'
 ```
 <br>
 
-* ## 📏 Install a status line for neo-vim
+* ## ✨ Install a status line for neo-vim
 ### Setup Dependencies
 
 Make sure you have nerd fonts fonts installed.
