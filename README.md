@@ -658,5 +658,6 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 > * Use **Space+E** to **open** exploer or **Space+F** to open in **floating mode**.
 > * **Q** will close the explorer.
 
+<br>
 
 ### 🌟 Quick Installation
