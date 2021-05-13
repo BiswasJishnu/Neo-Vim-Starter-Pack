@@ -270,6 +270,8 @@ nnoremap <Leader>O O<Esc>^Da
 > * Press **Ctrl+U** over a word to capatilise it.
 > * **Tab** key can now be used to **switch** between **buffers** and for **completion**.
 > * **Ctrl+S** will now save your file and **Ctrl+Q** will now **save and exit** neovim. 
+> * **Ctrl+b** will now save and close a single buffer. 
+> * **Ctrl+c** will be an alternative for **Esc**.
 > * **Better tabbing , window navigation** will now be **enabled**. 
 
 Finally source your mappings in the **init.vim** file.
@@ -510,7 +512,7 @@ source $HOME/.config/nvim/plug-config/coc.vim
 
 #### Configuring CoC
 
-Run the following command in neovim to create a configuration for CoC-
+Run the following command in neovim to create a configuration for CoC
 
 ```html
 :CocConfig
@@ -586,11 +588,23 @@ Make sure to run command  to install our plugins
 
 * ## 🧭 Add a file explorer for neo-vim
 
-<p>After Coc has been installed for neo-vim install extension coc-explorer.<p>
+<p>After CoC has been installed for neo-vim install extension coc-explorer.<p>
 <p>This will allow us to manage files in vim.<p>
 
 ```html
 :CocInstall coc-explorer
 ```
 
+Now add the following to the **coc-settings.json**
 
+```html
+// explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
+```
+> * This will configure coc-explorer for us.
