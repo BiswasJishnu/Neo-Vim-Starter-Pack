@@ -243,6 +243,10 @@ nnoremap <C-s> :w<CR>
 nnoremap <C-Q> :wq!<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
+
+"Close a buffer after saving it
+nnoremap <C-b> :bw!<CR>
+	
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
