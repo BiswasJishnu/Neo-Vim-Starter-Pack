@@ -662,15 +662,30 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 
 ### 🌟 Quick Installation
 	
-Clone this repository
+* Clone this repository
 
 ```html
 git clone https://github.com/BiswasJishnu/Neo-Vim-Starter-Pack.git	
 ```
 	
-Copy the configs
+* Setup dependencies
+	
+```html
+sudo pacman -S xsel 
+pip install pynvim
+npm i -g neovim	
+```
+	
+* Copy the configs
 
 ```html
 cd Neo-Vim-Starter-Pack
 cp nvim ~/.config/
+```
+
+* Run the following commands
+
+```html
+nvim -c PlugInstall
+CocInstall coc-stylelintplus coc-snippets coc-eslint coc-calc coc-vimlsp coc-sh coc-pyright coc-markdownlint coc-json coc-html coc-flutter coc-css coc-clangd coc-tsserver
 ```
