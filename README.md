@@ -667,3 +667,10 @@ Clone this repository
 ```html
 git clone https://github.com/BiswasJishnu/Neo-Vim-Starter-Pack.git	
 ```
+	
+Copy the configs
+
+```html
+cd Neo-Vim-Starter-Pack
+cp nvim ~/.config/
+```
