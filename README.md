@@ -661,3 +661,9 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 <br>
 
 ### 🌟 Quick Installation
+	
+Clone this repository
+
+```html
+git clone https://github.com/BiswasJishnu/Neo-Vim-Starter-Pack.git	
+```
